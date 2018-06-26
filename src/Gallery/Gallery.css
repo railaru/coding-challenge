@@ -35,6 +35,17 @@ button
     background-color: rgb(253, 161, 22);
 
 }
+.filter-button:active
+{
+    font-size: 15px;
+    border: 1px solid rgb(253, 161, 22);
+    border-radius: 0px;
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+    
+
+}
 .btn-default:active .filter-button:active
 {
     background-color: rgb(253, 161, 22);
