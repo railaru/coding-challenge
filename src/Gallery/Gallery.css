@@ -1,0 +1,58 @@
+.Gallery{
+    position: relative;
+    
+}
+button
+{
+    font-size: 15px;
+    border: 1px solid rgb(253, 161, 22);
+    border-radius: 0px;
+    text-align: center;
+    color: rgb(253, 161, 22);
+    margin-bottom: 30px;
+    margin-right: 0.2%;
+    margin-left: 0.2%;
+
+}
+.filter-button
+{
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 0px;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    background-color: #ffffff00;
+
+}
+.filter-button:hover
+{
+    font-size: 15px;
+    border: 1px solid rgb(253, 161, 22);
+    border-radius: 0px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(253, 161, 22);
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: rgb(253, 161, 22);
+    color: white;
+    
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+.img-same-size {
+    width: 365px; 
+    height: 365px;
+    object-fit: cover;
+}  

@@ -1,0 +1,11 @@
+.Header{
+    width: 100%;
+    background-color: black;
+    padding-top: 1.3%; 
+    
+}
+
+.Header-Logo{
+    max-height: 100px;
+    padding-bottom: 1%;   
+}
