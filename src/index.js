@@ -6,3 +6,8 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
+
+function tick() {
+    ReactDOM.render(<App />, document.getElementById('root'));
+  }
+  setInterval(tick, 500);
